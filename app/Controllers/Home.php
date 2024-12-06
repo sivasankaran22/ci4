@@ -8,7 +8,10 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
-    public function hello(){
+
+    public function hello(): string
+    {
         return "hello";
     }
+    
 }
